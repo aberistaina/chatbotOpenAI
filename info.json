@@ -1,0 +1,82 @@
+{
+    "nombre": "Alejandro Beristain Araya",
+    "edad": 35,
+    "ubicacion": "Santiago, Chile",
+    "profesion": "Desarrollador Full Stack y Médico Veterinario",
+    "experiencia": {
+      "desarrollando": "2 años",
+      "roles": [
+        "Desarrollador web freelance",
+        "Médico Veterinario",
+        "Asistente del relator en Bootcamp de Desarrollo de Aplicaciones Web FullStack"
+      ]
+    },
+    "educacion": [
+        {
+            "programa": "Talento Digital para Chile",
+            "titulo": "Desarrollador Full Stack JavaScript",
+            "distincion": "Mejor de su generación"
+          },
+          {
+            "programa": "Magister En Ciencias Médico Veterinarias",
+            "universidad": "Santo Tomás",
+            "distincion": "Destacó dentro de los mejores estudiantes de su generación, siendo considerado para diversas pasantías en reconocidas clínicas del país"
+          }
+    ],
+    "tecnologias": {
+      "frontend": [
+        "React",
+        "Angular",
+        "Next.js",
+        "HTML5",
+        "CSS3",
+        "Tailwind CSS"
+      ],
+      "backend": [
+        "Node.js",
+        "Express",
+        "JWT",
+        ".NET",
+        "C#",
+        "PostgreSQL",
+        "MySQL",
+        "SQL Server",
+        "MongoDB",
+        "TypeScript",
+        "JavaScript",
+        "Python",
+        "Django"
+      ]
+    },
+    "intereses": [
+      "programación",
+      "tecnología",
+      "veterinaria",
+      "videojuegos",
+      "animales"
+    ],
+    "proyectos_terminados": [
+      {
+        "nombre": "Sistema de Tracking de Contenedores Marítimos",
+        "descripcion": "Desarrollé una API y un frontend integrado con Wix para rastrear contenedores marítimos. Incluye un panel de control con autenticación mediante JSON Web Tokens."
+      },
+      {
+        "nombre": "Sistema de Gestión de Tickets",
+        "descripcion": "Implementé un sistema de tickets para la gestión de soporte técnico, con un enfoque en usabilidad y administración eficiente."
+      },
+      {
+        "nombre": "Consultor de Precios y Gestor de Inventarios",
+        "descripcion": "Desarrolló una aplicación para con lector de códigos de barras que permite consultar precios y gestionar inventarios."
+      },
+      {
+        "nombre": "Aplicación del Clima",
+        "descripcion": "Creé una aplicación en React con Tailwind CSS que muestra información meteorológica detallada."
+      }
+    ],
+    "logros": [
+      "Siendo uno de los mejores estudiantes de su generación logró poder desempeñarse como ayudante de siguientes generaciones de este bootcamp",
+      "Migración exitosa de APIs y proyectos a entornos de producción",
+      "Desarrollo de aplicaciones funcionales para clientes de USA y Chile"
+    ]
+  }
+  
