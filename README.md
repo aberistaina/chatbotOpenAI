@@ -40,12 +40,10 @@ Para poner en marcha este proyecto en tu máquina local, sigue estos pasos:
 4. Activa el entorno virtual:
       En Windows:
    
-         ```bash
          venv\Scripts\activate
    
       En Linux:
    
-         ```bash
          source venv/bin/activate
 
 6. Instala las dependencias necesarias:
