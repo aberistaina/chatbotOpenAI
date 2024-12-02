@@ -82,8 +82,8 @@ Este proyecto está construido con las siguientes tecnologías:
 
 Este proyecto requiere una clave API de OpenAI para funcionar. Crea un archivo `.env` en el directorio raíz y agrega la siguiente variable:
 
-   ```bash
-   OPENAI_API_KEY=tu_clave_api_de_openai
+
+      OPENAI_API_KEY=tu_clave_api_de_openai
 
 ## 👥 **Autores**
 
