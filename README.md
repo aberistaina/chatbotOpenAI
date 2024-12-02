@@ -39,20 +39,22 @@ Para poner en marcha este proyecto en tu máquina local, sigue estos pasos:
    python -m venv venv
 4. Activa el entorno virtual:
       En Windows:
+   
          ```bash
          venv\Scripts\activate
    
       En Linux:
+   
          ```bash
          source venv/bin/activate
 
-5. Instala las dependencias necesarias:
+6. Instala las dependencias necesarias:
    ```bash
    pip install -r requirements.txt
-6. Crea un archivo .env en el directorio raíz y agrega tu clave API de OpenAI:
+7. Crea un archivo .env en el directorio raíz y agrega tu clave API de OpenAI:
    ```bash
    OPENAI_API_KEY=tu_clave_api_de_openai
-7. Ejecuta el servidor Flask
+8. Ejecuta el servidor Flask
    ```bash
    python app.py
 El servidor debería iniciarse en http://127.0.0.1:5000/.
@@ -64,10 +66,11 @@ El servidor debería iniciarse en http://127.0.0.1:5000/.
 Para interactuar con el chatbot, realiza una solicitud POST a la ruta `/chat` con el siguiente formato JSON:
 ### Realizar una solicitud de chat:
 Para interactuar con el chatbot, realiza una solicitud POST a la ruta `/chat` con el siguiente formato JSON:
+
     ```json
-   {
-     "message": "Tu mensaje aquí"
-   }
+      {
+        "message": "Tu mensaje aquí"
+      }
 
 ## ⚙️ **Tecnologías**
 
@@ -82,10 +85,12 @@ Este proyecto está construido con las siguientes tecnologías:
 ## 🔑 **Variables de Entorno**
 
 Este proyecto requiere una clave API de OpenAI para funcionar. Crea un archivo `.env` en el directorio raíz y agrega la siguiente variable:
+
       ```env
       OPENAI_API_KEY=tu_clave_api_de_openai
 
 ## 👥 **Autores**
 
-- Alejandro Beristain - @aberistaina
+- Alejandro Beristain - [@aberistaina](https://github.com/aberistaina)
+
 
