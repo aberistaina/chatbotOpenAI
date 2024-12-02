@@ -39,13 +39,13 @@ Para poner en marcha este proyecto en tu máquina local, sigue estos pasos:
    python -m venv venv
 4. Activa el entorno virtual:
 
-      En Windows:
-   
-         venv\Scripts\activate
-   
-      En Linux:
-   
-         source venv/bin/activate
+         En Windows:
+      
+            venv\Scripts\activate
+      
+         En Linux:
+      
+            source venv/bin/activate
 
 6. Instala las dependencias necesarias:
    ```bash
