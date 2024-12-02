@@ -63,8 +63,6 @@ El servidor debería iniciarse en http://127.0.0.1:5000/.
 
 ### Realizar una solicitud de chat:
 Para interactuar con el chatbot, realiza una solicitud POST a la ruta `/chat` con el siguiente formato JSON:
-### Realizar una solicitud de chat:
-Para interactuar con el chatbot, realiza una solicitud POST a la ruta `/chat` con el siguiente formato JSON:
 
       {
         "message": "Tu mensaje aquí"
