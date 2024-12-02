@@ -6,17 +6,17 @@
 
 ## 📋 **Tabla de Contenidos**
 
-- [✨ Características](#características)
-- [💻 Instalación](#instalación)
-- [🔧 Uso](#uso)
-- [⚙️ Tecnologías](#tecnologías)
-- [🔑 Variables de Entorno](#variables-de-entorno)
-- [👥 Autores](#autores)
+- [✨ Características](#-características)
+- [💻 Instalación](#-instalación)
+- [🔧 Uso](#-uso)
+- [⚙️ Tecnologías](#-tecnologías)
+- [🔑 Variables de Entorno](#-variables-de-entorno)
+- [👥 Autores](#-autores)
 
 
 ---
 
-# ✨ **Características**
+## ✨ **Características**
 
 - 🤖 **Interacción con el usuario**: El chatbot responde a los mensajes del usuario utilizando el modelo GPT-3.5 de OpenAI.
 - 🔄 **API flexible**: Permite personalizar el comportamiento del asistente ajustando el contenido del "prompt" en el archivo `prompt.py`.
