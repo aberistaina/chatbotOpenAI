@@ -11,9 +11,8 @@
 - [🔧 Uso](#uso)
 - [⚙️ Tecnologías](#tecnologías)
 - [🔑 Variables de Entorno](#variables-de-entorno)
-- [🧑‍💻 Contribuciones](#contribuciones)
 - [👥 Autores](#autores)
-- [📄 Licencia](#licencia)
+
 
 ---
 
@@ -35,3 +34,58 @@ Para poner en marcha este proyecto en tu máquina local, sigue estos pasos:
 2. Navega al directorio del proyecto:
     ```bash
     cd chatbotOpenAI
+3. Crea un entorno virtual (opcional pero recomendado):
+   ```bash
+   python -m venv venv
+4. Activa el entorno virtual:
+      En Windows:
+         ```bash
+         venv\Scripts\activate
+   
+      En Linux:
+         ```bash
+         source venv/bin/activate
+
+5. Instala las dependencias necesarias:
+   ```bash
+   pip install -r requirements.txt
+6. Crea un archivo .env en el directorio raíz y agrega tu clave API de OpenAI:
+   ```bash
+   OPENAI_API_KEY=tu_clave_api_de_openai
+7. Ejecuta el servidor Flask
+   ```bash
+   python app.py
+El servidor debería iniciarse en http://127.0.0.1:5000/.
+
+
+## 🔧 **Uso**
+
+### Realizar una solicitud de chat:
+Para interactuar con el chatbot, realiza una solicitud POST a la ruta `/chat` con el siguiente formato JSON:
+### Realizar una solicitud de chat:
+Para interactuar con el chatbot, realiza una solicitud POST a la ruta `/chat` con el siguiente formato JSON:
+    ```json
+   {
+     "message": "Tu mensaje aquí"
+   }
+
+## ⚙️ **Tecnologías**
+
+Este proyecto está construido con las siguientes tecnologías:
+
+- 🐍 **Python**: Lenguaje de programación utilizado.
+- 🧑‍💻 **Flask**: Framework para el backend.
+- 🌐 **OpenAI GPT-3.5**: Modelo utilizado para generar respuestas de chat.
+- 🔑 **OpenAI API**: Se requiere una clave API para usar el modelo de OpenAI.
+- 🌍 **CORS**: Para permitir solicitudes desde cualquier origen.
+
+## 🔑 **Variables de Entorno**
+
+Este proyecto requiere una clave API de OpenAI para funcionar. Crea un archivo `.env` en el directorio raíz y agrega la siguiente variable:
+      ```env
+      OPENAI_API_KEY=tu_clave_api_de_openai
+
+## 👥 **Autores**
+
+- Alejandro Beristain - @aberistaina
+
