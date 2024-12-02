@@ -66,7 +66,6 @@ Para interactuar con el chatbot, realiza una solicitud POST a la ruta `/chat` co
 ### Realizar una solicitud de chat:
 Para interactuar con el chatbot, realiza una solicitud POST a la ruta `/chat` con el siguiente formato JSON:
 
-    ```json
       {
         "message": "Tu mensaje aquí"
       }
